@@ -12,7 +12,7 @@ public class Main {
         System.out.println("Esto es un comentario de David Tarí Blasco para un commit");
     }
 
-    static String veredicto(Integer horasSemanales, Integer modulos) {
+    private String veredicto(Integer horasSemanales, Integer modulos) {
         if (horasSemanales.equals(modulos)) {
             return "Bien. Pero una hora de estudio para cada módulo puede ser insuficiente.";
         }
