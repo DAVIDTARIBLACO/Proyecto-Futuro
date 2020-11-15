@@ -9,6 +9,7 @@ public class Main {
         String resultado = veredicto(horasSemanales, modulos);
         System.out.println("Estudiante " + alumno + " : ");
         System.out.println(resultado);
+        System.out.println("Esto es un comentario de David Tarí Blasco para un commit");
     }
 
     static String veredicto(Integer horasSemanales, Integer modulos) {
